@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTrescPytania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tresc pytania" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radioButtonodpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="odpowiedź a" />
+
+        <RadioButton
+            android:id="@+id/radioButtonodpb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="odpowiedz b" />
+
+        <RadioButton
+            android:id="@+id/radioButtonodpc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="odpowiedz c" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Następne" />
+
+</LinearLayout>
